@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Welcome to Black Basket</title>
+</head>
+<body>
+    <div class="modal-bg">
+        <div class="modal">
+            <p class="modal-close">&times;</p>
+            <h3>Please Enter Your Details</h3>
+            <label for="name">First Name:</label>
+            <input type="text" name="name" class="name">
+    
+            <label for="surname">Last Name:</label>
+            <input type="text" name="lastname">
+    
+            <label for="number">Phone Number:</label>
+            <input type="text" name="number" class="number">
+            
+            <label for="guests">Number of Guests:</label>
+            <input type="number" min="0" max="10" name="guests" class="number">
+
+            <label for="date">Select a date:</label>
+            <input type="date" name="date" class="date">
+    
+            <label for="time">Select a time:</label>
+            <input type="time" name="time" class="time">
+            <button class="book-res">Make Reservation</button>
+        </div>
+    </div>
+        <nav>
+            <div class="logo"><h1> <a href="#">Black Basket</a></h1></div>
+            <ul class="nav-links">
+                <h1 class="nav-close">&times;</h1>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#menu">Our Menu</a></li>
+                <li><a href="#events">Events</a></li>
+                <li class="reservations"><a href="#reservation" >Reservations</a></li>
+            </ul>
+            
+            <i class="fas fa-bars"></i>
+        </nav>
+        <section class="landing">
+            <div class="hero-text">
+                <h1>Any meal with us
+                    is a decadent one</h1>
+                <p>Join us for your next meal</p>
+                <button class="booking">Book a table</button>
+            </div>
+            <div class="hero-image">
+                <img src="./images/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="hero image">
+            </div>
+            
+        </section>
+
+        
+
+        <section class="about" id="about">
+            <div class="about-image">
+                <!-- <img src="./images/trinh-minh-th-a6kYPun9_ao-unsplash.jpg" alt=""> -->
+            </div>
+            <div class="our-story">
+                <h1>Our Story</h1>
+                <p>Since our inception in 1990, Black Basket has been a business with a passion for success and this fact is evident in
+                that today. There are currently five Black Basket restaurants operating across South Africa and one in Botswana.</p> 
+                
+                <p>Drawing on the concept “you are always welcome”, the Black Basket experience provides the opportunity for people from
+                all walks of life to experience quality hearty food, served professionally with a smile.
+                </p>
+
+                <p>Black Basket strives to intrigue and delight customers with our unique dishes that only make use of the finest ingredients and the
+                freshest produce.</p>
+            </div>
+        </section>
+
+        <section class="menu-title" id="menu">
+            <h1>Our Menu</h1>
+            <p><i>Here are some of our most popular dishes</i> </p>
+        </section>
+
+        <section class="menu-section">
+            <div class="overlay"></div>
+            <div class="menu-container">
+                <div class="meal-section">
+                    <h2>Breakfast</h2>
+                    <ul class="food-items">
+                        <li>South African Breakfast.....R80</li>
+                        <li>Basket Breakfast.....................R125</li>
+                        <li>Omlettes........................................R88</li>
+                        <li>Breakfast Livers........................R72</li>
+                        <li>Steak, Egg & Chips.................R95</li>
+                        <li>Breakfast Wrap.........................R86</li>
+                    </ul>
+                </div>
+                <div class="meal-section">
+                    <h2>Lunch</h2>
+                    <ul class="food-items">
+                        <li>Chicken Curry........................R79</li>
+                        <li>Trinchado..................................R89</li>
+                        <li>Buffalo Chicken Wrap.....R89</li>
+                        <li>Salmon Bowl........................R135</li>
+                        <li>Korean Chicken Bowl.....R119</li>
+                        <li>Original Burger.....................R88</li>
+                    </ul>
+                </div>
+                <div class="meal-section">
+                    <h2>Dinner</h2>
+                    <ul class="food-items">
+                        <li>Rib-eye(400G)..............R229</li>
+                        <li>Tomahawk(800G).......R229</li>
+                        <li>Grilled Calamari...........R179</li>
+                        <li>Seafood Platter.............R279</li>
+                        <li>Prawn & Calamari.......R235</li>
+                        <li>Lamb Chops(400G)....R230</li>
+                    </ul>
+                </div>
+            </div>
+            <button class="full-menu">See Full Menu</button>
+        </section>
+
+        <section class="banner">
+            <div class="banner-text">
+                <i class="fas fa-utensils"></i>
+                <p>Top Class Chefs</p>
+            </div>
+            <div class="banner-text">
+                <i class="fas fa-lemon"></i>
+                <p>Fresh Ingredients</p>
+            </div>
+            <div class="banner-text">
+                <div class="five-star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>5 Star Service</p>
+            </div>
+            <div class="overlay2"></div>
+        </section>
+
+        <section class="events-section" id="events">
+            <h1>Our Events</h1>
+            <div class="event-container">
+                <div class="event">
+                    <img src="./images/louis-hansel-shotsoflouis-cH5IPjaAYyo-unsplash.jpg" alt="event image">
+                    <div class="details">
+                        <h2 class="date">17 Aug</h2>
+                        <div class="title-time">
+                            <h2>Mediterranean Night</h2>
+                            <i class="far fa-clock"></i>
+                            <p>18:00 - 23:00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="event">
+                    <img src="./images/chuttersnap-aEnH4hJ_Mrs-unsplash.jpg" alt="event image">
+                    <div class="details">
+                        <h2 class="date">10 Nov</h2>
+                        <div class="title-time">
+                            <h2>Turkish Evening</h2>
+                            <i class="far fa-clock"></i>
+                            <p>18:00 - 23:00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="overlay3"></div>
+        </section>
+
+        <footer>
+            <div >
+                <div class="logo">
+                    <h1> <a href="#">Black Basket</a></h1>
+                </div>
+            </div>
+            <div class="footer-container">
+                <div class="contact">
+                    <p><i class="fas fa-map-marker-alt"></i> 512 Woodhill Drive, Johannesburg, Gauteng</p>
+                    <p><i class="fas fa-envelope"></i> info@blackbasket.co.za</p>
+                    <p><i class="fas fa-phone-square-alt"></i> 011 058 2649</p>
+                    <div class="socials">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-pinterest"></i>
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                </div>
+                
+                <div class="operating-hours">
+                    <h2>Operating Hours</h2>
+                    <h4>Mon - Fri</h4>
+                    <p>
+                        08:00 - 23:00
+                    </p>
+                    <h4>Sat - Sat</h4>
+                    <p>
+                        09:00 - 21:30
+                    </p>
+                </div>
+            </div>
+            
+        </footer>
+        <script src="./app.js"></script>
+</body>
+</html>
